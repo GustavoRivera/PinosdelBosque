@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block header %}
+<div class="vertitulo">{{ item.titulo }}</div>
+{% endblock %}
+
+{% block content %}
+<div class="fecha">{{ item.fecha }} </div>
+<div ><label class="detalle">  {{ item.detalle }}   </label> </div>
+{% endblock %}

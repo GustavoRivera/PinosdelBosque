@@ -1,0 +1,143 @@
+.titulo{
+    font-size: 100px;
+    
+}
+
+.subtitulo{
+    font-size: 80px;
+}
+
+.tituloContainer{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    
+    
+}
+.subtituloContainer{
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    
+}
+
+.noticiaContainer{
+    height: 200px !important;
+    float: left;
+    width: 30% !important;
+    border-color:aliceblue !important  ; 
+    border-width: 1px !important;
+    border-style: solid;
+    margin-bottom: 1%;
+    margin-left: 2.5%;
+    border-radius: 25px;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;  
+    font-size: 30px; 
+}
+
+.resumen{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+
+}
+.verDetalle{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    
+}
+
+.vertitulo{
+    width: 90%;
+    text-align: center !important;
+    font-size: 70px;
+    float: left;
+}
+
+.fecha{
+    width: 9%;
+    float: left;
+}
+
+.detalle{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    height: auto;
+    }
+.head{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.crear{
+    float: right;
+    color: white;   
+    margin-top: 1%;
+    margin-bottom: 1%;   
+}
+.imageContainer{
+    height: 10px !important;
+}
+.image{
+    height: 50px !important;
+
+    width:100%;
+}
+
+.fondoWallpaper{
+    position: relative;
+
+}
+.imagenFondo{
+    z-index: 50;
+    position: absolute;
+}
+.blockheader{
+    color: aliceblue;
+    position: absolute;
+    z-index: 100;
+}
+.blockcontent   {
+    color: aliceblue;
+    position: absolute;
+    z-index: 100;
+}
+
+
+@media (max-width: 1000px){
+    .noticiaContainer{
+        height: 200px !important;
+        float: left;
+        width: 45% !important;
+        border-color: black !important  ; 
+        border-width: 1px !important;
+        border-style: solid;
+        margin-bottom: 1%;
+        margin-left: 2.5%;
+        border-radius: 25px;
+    }
+
+}
+@media (max-width: 700px){
+    .noticiaContainer{
+        height: 200px !important;
+        float: left;
+        width: 95% !important;
+        border-color: black !important  ; 
+        border-width: 1px !important;
+        border-style: solid;
+        margin-bottom: 1%;
+        margin-left: 2.5%;
+        border-radius: 25px;
+    }
+
+}
